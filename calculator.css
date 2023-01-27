@@ -4,6 +4,7 @@
 }
 
 h1{
+    text-shadow: 1px 2px black;
     background-color: rgb(190, 5, 98);
     color: white;
 }
