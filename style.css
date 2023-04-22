@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -36,8 +36,14 @@
     margin: 5px;
     padding: 10px;
     background-color: #ff7d2c;
+    box-shadow: 0 5px rgba(121, 121, 121, 0.65);
     color: white;
     border-radius: 10px;
     font-size: 20px;
     border: none;
+}
+
+Button:active {
+    transform: translate(0, 3px);
+    box-shadow: 0 2px rgba(48, 48, 48, 0.65);
 }
