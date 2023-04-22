@@ -5,9 +5,9 @@ const buttons = document.querySelectorAll(".btn");
 buttons.forEach(button => {
     button.addEventListener("click", () => {
         const inputValue = input.value;
-        const buttonText = button.querySelector("span").textContent;
+        const buttonInnerText = button.querySelector("span").textContent;
 
-        switch (buttonText) {
+        switch (buttonInnerText) {
             case "C":
                 input.value = "";
                 break;
@@ -39,7 +39,7 @@ buttons.forEach(button => {
                 }
                 break;
             default:
-                input.value += buttonText;
+                input.value += buttonInnerText;
         }
     });
 });

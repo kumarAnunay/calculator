@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    box-shadow: 0px 0px 3px 3px #ff7d2c;
+    box-shadow: 2px 2px 5px 5px rgb(0, 0, 0);
 }
 
 #inputValue {
